@@ -1518,7 +1518,7 @@ input.whats-input[type=text]:focus {
         color: var(--white);
         font-size: 14px;
     }
-    
+
     .footer-flex .footer1 {
         width: 100%;
     }
@@ -1608,27 +1608,20 @@ input.whats-input[type=text]:focus {
         grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
     }
 
-    .home:before {
-        align-items: end;
-        justify-items: center;
-        grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 140%;
-        top: 0;
-        left: 0;
-        z-index: -1;
+    .home-1 {
         width: 100%;
         min-height: 100vh;
-        background-repeat-y: no-repeat !important;
-        background-repeat-x: repeat !important;
-        display: grid;
+        display: flex;
         align-items: center;
-        background-size: cover !important;
+        gap: 3.5rem;
+        z-index: 1;
+        background: url(../img/banner-ver.jpg) no-repeat;
+        background-size: cover;
+        flex-wrap: wrap;
         background-position: center;
         justify-items: center;
-        background: url(../img/banner-ver.jpg) 0 0;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .home .content h3 {
