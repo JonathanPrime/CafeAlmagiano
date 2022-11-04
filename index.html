@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Café Al-Magiano</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="./icon.svg">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+        <title>Café Al-Magiano</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- links for font-awesome and bootstrap4 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body id="page">
+
+        <!-- header section starts  -->
+
+        <header class="header fixed-top">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <img class="logo-desing" src="./img/logo/logo-white.svg" id="img-logo" alt="">
+                    <nav class="nav">
+                        <a href="#home">Inicio</a>
+                        <a href="#about">Nosotros</a>
+                        <a href="#products">Productos</a>
+                        <a href="#contact">Contáctanos</a>
+                        <a href="#stand-coffee">Propuesta</a>
+                    </nav>
+                    <div id="menu-btn" class="fas fa-bars"></div>
+                    <div class='phone'>
+                        <a data-toggle="modal" class="shop circle button" id="button-0" data-target="#cart"><i
+                                class="fa fa-shopping-cart" style="padding-right: 5px;"></i><span
+                                class="badge badge-danger total-count"></span></a>
+                    </div>
+                    <!-- -->
+                </div>
+
+            </div>
+        </header>
+        <!-- header section ends -->
+
+        <!-- home section starts  -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <img style="width: 90%" src="./img/patron/text-v1.svg" alt="">
+            </div>
+            <!-- Home Image -->
+            <div class="home-img">
+                <img src="./img/img-head.png" alt="">
+            </div>
+            <div class="home-text">
+                <img style="width: 90%" src="../img/patron/text-v2.svg" alt="">
+            </div>
+        </section>
+        <!-- home section ends -->
+
+        <!-- about section starts  -->
+        <section class="about" id="about">
+            <div class="content about-info">
+                <h3 class="own-script">Acerca de</h3>
+                <h3 class="title">Nosotros</h3>
+                <div class="icons">
+                    <p><b>Café Al-Magiano</b> es un equipo trabajador que servimos con amor y esperanza,
+                        brindando a nuestros clientes café 100% colombiano.</p>
+                </div>
+                <a href="" target="_blank"> <i class="btn fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/almagianocafe/" target="_blank"> <i class="btn fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="content about-img">
+                <div class="row img-group" style="justify-content: center;">
+                    <div class="col-md-8 col-sm-8 col-8 card__group image img-group-1">
+                        <img src="./img/img-about.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- about section ends -->
+
+        <!-- start section three  -->
+        <section class="bg-shop" id="products">
+            <div class="shop-links">
+                <div>
+                    <h3 class="own-script-p">NUESTROS</h3>
+                    <h2 class="text-p">PRODUCTOS</h2>
+                </div>
+                <!-- <div class="links">
+                    <li data-filter="all">Todos</li>
+                    <li data-filter=".coffee">Café</li>
+                    <li data-filter=".machines">machines</li>-
+
+                    <li data-filter=".sweets">sweets</li>
+                </div> -->
+            </div>
+            <div class="shop-flex ">
+                <!-- consts -->
+                <div class="shop1 mix coffee">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-1.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-1" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop1 mix coffee">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-2.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-2" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shop1 mix coffee">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-3.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-3" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shop1 mix coffee">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-4.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-4" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shop1 mix machines">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-5.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-5" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop1 mix machines">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-6.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-6" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop1 mix machines">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-7.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-7" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop1 mix sweets">
+                    <div class="shop-image">
+                        <img src="img/products/cafe-8.png" alt="">
+                        <h3 class="menu__name" style="text-align: center;"><b>Café</b></h3>
+                        <div class="container">
+                            <div class="row details">
+                                <a data-name="Cafe-8" data-price="0" class="add-to-cart btn-shop"
+                                    style="margin: 1rem !important">
+                                    <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section three  -->
+
+        <!-- contact section starts  -->
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h3 class="own-script-d">NUESTRO</h3>
+                <h3 class="reviews-title">CONTÁCTO</h3>
+
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="mapouter">
+                        <div class="gmap_canvas" style="border-radius: 4rem;"><iframe id="gmap_canvas"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15905.181185878253!2d-74.0492125!3d4.7186821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f858f34c3cdef%3A0x700a62f4673f27df!2sCAFE%20AL-MAGIANO!5e0!3m2!1ses!2sco!4v1667531394061!5m2!1ses!2sco"
+                                frameborder="0" scrolling="no" marginheight="0" width="100%" height="400px"
+                                marginwidth="0"></iframe>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: auto;
+                                    width: 100%;
+                                }
+                            </style><a href="https://www.embedgooglemap.net"></a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: auto;
+                                    width: 100%;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-map"></i>
+                            <h3>Dirección:</h3>
+                            <p>Cl. 134 #20 54, Bogotá</p>
+                            <a href="https://goo.gl/maps/XnDjAGWVesurSds89" target="_blank" class="btn btn-contact">Ver
+                                en
+                                Google Maps</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email:</h3>
+                            <p>diegomejia20182011@gmail.com</p>
+                            <a href="mailto:diegomejia20182011@gmail.com?" target="_blank"
+                                class="btn btn-contact">Enviar
+                                correo</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-phone"></i>
+                            <h3>Celular:</h3>
+                            <p>+57 318 430 7972</p>
+                            <a href="tel:+573184307972" target="_blank" class="btn btn-contact">Llamar</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-clock"></i>
+                            <h3>Horarios:</h3>
+                            <p><b>Lun - Dom:</b><br> 08:00 a.m - 07:00 p.m.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section ends -->
+
+        <!-- start section four  -->
+        <section class="bg-menu" id="stand-coffee">
+            <div class="menu-title">
+                <h1>PROPUESTAS STAND COFFEE AL-MAGIANO</h1>
+                <hr>
+            </div>
+            <div class="menu-flex col-sm-8 col-lg-8 col-xs-12">
+                <p class="text-stand">
+                    <b>¡Felicitaciones!</b>, usted ha seleccionado una idea de negocio,
+                    con nuestra nueva marca de productos, AL-MAGIANO,
+                    a continuación le explicaremos como puede comercializar
+                    nuestros productos, hacer el negocio y ganar.
+                </p>
+                <hr>
+                <p class="text-stand">
+                    <b>¿Cómo hacerlo?</b> Con decisión, no hay nada más que contagie, tanto como
+                    el entusiasmo. Con este confiamos plenamente en la idea
+                    que te estamos presentando, que transmite a usted y a sus
+                    clientes pasión y confianza para el progreso de tu negocio.
+                    <br><br>
+                    Con una actitud positiva sea cual sea la respuesta de nuestro
+                    interlocutor, podremos llevar a cabo nuestro objetivo,
+                    el cual es vender nuestro delicioso café con <b>ENERGÍA Y SENSACIÓN</b>.
+                </p>
+                <hr>
+                <p class="text-stand">
+                    <b>Hablemos de Café</b> Para vender cafe en nuestra tierra colombiana no es dificil
+                    ya que es uno de nuestros productos que se cultivan y se
+                    llevan a la mesa a diario a los hogares.
+                    Tomar cafe es nuestro presente. Bienvenido <b>AL-MAGIANO</b>
+                </p>
+            </div>
+            <div class="menu-link">
+                <a href="https://www.wa.link/g1art0" target="_blank">Quiero ser parte</a>
+            </div>
+        </section>
+        <!-- end section four  -->
+
+        <!-- start section two  -->
+        <section class="bg-service" id="steps">
+            <div class="menu-title-steps col-lg-12">
+                <h1>PROPUESTA DE NEGOCIO EN TRES PASOS</h1>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col">
+                        <!--Vertical card-1-->
+                        <div class="card mt-5 shadow text-center">
+                            <img src="img/img-stand-1.jpg" alt="" width="100%">
+                            <div class="card-body">
+                                <h3>1. Colocas al servicio de <b>AL-MAGIANO</b> tu establecimiento, ese sera tu
+                                    único aporte.</h3>
+                                <div class="menu-link">
+                                    <a class="btn btn-steps" href="https://www.wa.link/g1art0" target="_blank">Quiero
+                                        ser parte</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <!--Vertical card-2-->
+                        <div class="card mt-5  shadow text-center">
+                            <img src="img/img-stand-2.jpg" alt="" width="100%">
+                            <div class="card-body">
+                                <h3>2. Tu recibes un Kit de <b>AL-MAGIAN</b>O completo para la venta de café.</h3>
+                                <div class="menu-link">
+                                    <a class="btn btn-steps" href="https://www.wa.link/g1art0" target="_blank">Quiero
+                                        ser parte</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--Vertical card-3-->
+                        <div class="card mt-5 shadow text-center">
+                            <img src="img/img-stand-2.jpg" alt="" width="100%">
+                            <div class="card-body">
+                                <h3>3. Vendes nuestro café <b>AL-MAGIANO</b> y ganas el 30 % de las utilidades
+                                    del negocio sin aportar inversion de tu bolsillo, solo las que
+                                    hagas durante la jornada de trabajo de tu negocio.</h3>
+                                <div class="menu-link">
+                                    <a class="btn btn-steps" href="https://www.wa.link/g1art0" target="_blank">Quiero
+                                        ser parte</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section two  -->
+
+        <!-- start footer section  -->
+        <section class="footer">
+            <div class="box-container container">
+                <div class="box">
+                    <h3>Enlaces rápidos</h3>
+                    <a href="#home"><i class="fas fa-angle-right"></i>Inicio</a>
+                    <a href="#about"><i class="fas fa-angle-right"></i>Nosotros</a>
+                    <a href="#products"><i class="fas fa-angle-right"></i>Productos</a>
+                    <a href="#contact"><i class="fas fa-angle-right"></i>Contáctanos</a>
+                    <a href="#stand-coffee"><i class="fas fa-angle-right"></i>Propuestas</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contactanos</h3>
+                    <a href="https://goo.gl/maps/XnDjAGWVesurSds89" target="_blank"> <i class="fas fa-map"></i>Cl. 134
+                        #20 54, Bogotá</a>
+                    <a href="tel:+573184307972"> <i class="fas fa-phone"></i> Celular: +57 318 430 7972 </a>
+                    <a href="mailto:diegomejia20182011@gmail.com?"> <i class="fas fa-envelope"></i>
+                        diegomejia20182011@gmail.com</a>
+                </div>
+
+                <div class="box">
+                    <h3>Síguenos</h3>
+                    <a href="" target="_blank"> <i class="fab fa-facebook-f"></i>
+                        Facebook </a>
+                    <a href="https://www.instagram.com/almagianocafe/" target="_blank"> <i class="fab fa-instagram"></i>
+                        Instagram </a>
+                </div>
+            </div>
+            <p class="credit"> &#169; 2022 Digital Future Agency. Todos los derechos reservados. </p>
+        </section>
+        <!-- footer section ends -->
+        <!-- WHATSAPP -->
+        <div class="nav-bottom">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                        <i class="material-icons icon-font-color">close</i>
+                    </button>
+                    <p>Hola 🤩, ¡Puedes pedir a domicilio por nuestro canal de Whatsapp! ☕.</p>
+                </div>
+                <div class="content-whatsapp -bottom">
+                    <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <img class="icon-whatsapp" src="https://cdn-icons-png.flaticon.com/512/134/134937.png">
+            </button>
+            <div class="circle-anime"></div>
+        </div>
+        <!-- CLOSE WHATSAPP -->
+
+        <!-- SHOP -->
+        <div class="modal fade" id="cart" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Carrito</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="show-cart table">
+
+                        </table>
+                        <div class="total">Precio Total: $<span class="total-cart" id="total_order"></span></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="m-cart clear-cart btn btn-danger">Vaciar</button>
+                        <button type="button" class="m-cart btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="m-cart btn btn-primary" data-toggle="modal"
+                            data-target="#send_whastapp" id="modal-data">Ordenar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="modal fade" id="send_whastapp" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <form>
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h3 class="modal-title">Datos del pedido</b></h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" id="close-x">&times;</span>
+                            </button>
+                        </div>
+                        <!-- Modal body -->
+                        <form id="client_form">
+                            <div class="modal-body">
+                                <label>Nombre (*)</label>
+                                <div class="name">
+                                    <input type="text" class="form_text" id="name_user" required />
+                                </div>
+                                <label>Teléfono (*)</label>
+                                <div class="tel">
+                                    <input type="tel" class="form_text" id="tel_user" required />
+                                </div>
+                                <label>Dirección de entrega (*)</label>
+                                <div class="dir">
+                                    <input type="dir" class="form_text" id="dir_user" required />
+                                </div>
+                            </div>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="m-cart btn btn-primary" id="send_order"
+                                    value="Hola, quiero hacer este pedido:">Solicitar</button>
+                                <button type="button" id="close-modal-data" class="m-cart btn btn-secondary"
+                                    data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- SHOP -->
+
+    </body>
+
+    </html>
+    <script src="js/mixitup.min.js"></script>
+    <script>
+        var mixer = mixitup('.consts');
+    </script>
+    <!-- links for jquery and bootstrap4 -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
