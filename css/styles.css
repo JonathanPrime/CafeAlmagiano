@@ -82,6 +82,14 @@ img {
     padding: 1rem 3rem !important;
 }
 
+.total {
+    font-size: 16px !important;
+}
+
+td #id {
+    font-size: 16px !important;
+}
+
 .btn-contact:hover {
     color: var(--white) !important;
     background: var(--black) !important;
@@ -1302,6 +1310,11 @@ a:visited {
 
 /* FORM */
 
+
+.table {
+    font-size: 14px;
+}
+
 .modal input {
     position: relative;
     border-radius: 3px;
@@ -1310,7 +1323,7 @@ a:visited {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     outline: none;
-    padding: 1.125em 0 6px 6px;
+    padding: 6px 0 6px 6px;
     font-size: 1.25em;
     margin: 0px 0px 9px 0px;
     border: 1px solid #dddddd;
