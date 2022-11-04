@@ -323,7 +323,7 @@ sendOrderBtn.addEventListener("click", () => {
     let msg = document.getElementById('send_order').value;
     let relmsg = msg.replace(/ /g,"%20");
     var total_order = document.getElementById("total_order").innerHTML.toString();
-    let domicilio = (Number(total_order)+1500);
+    let domicilio = total_order;
 
    window.open('https://wa.me/573184307972?text='+ relmsg + "%0a"
   + "---------------------------------" + "%0a"
@@ -331,7 +331,6 @@ sendOrderBtn.addEventListener("click", () => {
   + "---------------------------------" + "%0a"
   + carritoEnTexto + "%0a"
   + "Costo del domicilio: $1.500," + "%0a"
-  + "Total orden: $" + domicilio + "%0a"
   + "---------------------------------" + "%0a"
   + "       DATOS DE CONTACTO          " + "%0a"
   + "---------------------------------" + "%0a"
