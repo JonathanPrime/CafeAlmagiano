@@ -330,7 +330,7 @@ a:hover {
     background: linear-gradient(to bottom, transparent 0%, #1e1e22 100%);
   } */
 
-  .img-2-slideshow {
+.img-2-slideshow {
     background-image: url('../img/parallax/home-parallax-2.jpg');
     height: 100vh;
     background-size: cover;
@@ -405,6 +405,38 @@ a:hover {
 .home-text,
 home-img {
     width: 100%;
+}
+
+.pagination {
+    position: absolute !important;
+    width: 100%;
+    text-align: center;
+    right: 0;
+    padding: 0 !important;
+    bottom: 3rem;
+    z-index: 999;
+}
+
+.pagination__item {
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.pagination__item.is-current,
+.pagination__item:hover {
+    background-color: #fff;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
 }
 
 .home-img {
@@ -2743,6 +2775,7 @@ h6,
     .o-grid_item.-button {
         width: 100%;
     }
+
     /* .img-2-slideshow::after {
        background: url('../img/svg/line-effect.svg'), linear-gradient(to bottom, #1d003dab 0%, #270066e0 100%);
        background-size: 50%, cover;

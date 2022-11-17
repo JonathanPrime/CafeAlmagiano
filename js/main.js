@@ -355,7 +355,7 @@ class Slideshow {
       showArrows: false,
       showPagination: true,
       duration: 6000,
-      autoplay: false
+      autoplay: true
     };
     let options = Object.assign({}, defaultOptions, userOptions);
     this.$el = options.$el;
@@ -471,7 +471,7 @@ class Slideshow {
 
   function load() {
     const options = {
-      showPagination: false
+      showPagination: true
     };
     let slideShow = new Slideshow(options);
   }
